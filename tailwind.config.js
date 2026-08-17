@@ -8,20 +8,20 @@ export default {
     extend: {
       colors: {
         navy: {
-          DEFAULT: '#0a1128',
-          dark: '#050914',
-          light: '#131e3d',
-          glass: 'rgba(10, 17, 40, 0.75)',
+          DEFAULT: '#0a192f',
+          dark: '#020c1b',
+          light: '#112240',
+          glass: 'rgba(10, 25, 47, 0.82)',
         },
         gold: {
-          DEFAULT: '#f59e0b',
-          accent: '#fbbf24',
-          light: '#fef3c7',
+          DEFAULT: '#e6a100',
+          accent: '#ffd700',
+          light: '#fff8dc',
         },
         brmpGreen: {
-          DEFAULT: '#10b981',
-          dark: '#059669',
-          light: '#d1fae5',
+          DEFAULT: '#00a86b',
+          dark: '#007a4d',
+          light: '#e6f4ea',
         }
       },
       fontFamily: {

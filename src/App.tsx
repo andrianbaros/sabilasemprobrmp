@@ -119,8 +119,8 @@ export default function App() {
         style={{ backgroundImage: "url('/bangunanbrmp.png')" }}
       />
       
-      {/* Dark Navy Overlay across slides */}
-      <div className="absolute inset-0 bg-slate-950/85 backdrop-blur-[2px] z-0" />
+      {/* Dark Navy Overlay across slides matching PDF visual identity */}
+      <div className="absolute inset-0 bg-[#020c1b]/88 backdrop-blur-[1px] z-0" />
 
       {/* Main Slide Content Area */}
       <main className="relative z-10 w-full h-full flex-1 flex flex-col overflow-hidden">
