@@ -122,8 +122,8 @@ export default function App() {
       {/* Dark Navy Overlay across slides matching PDF visual identity */}
       <div className="absolute inset-0 bg-[#020c1b]/88 backdrop-blur-[1px] z-0" />
 
-      {/* Main Slide Content Area */}
-      <main className="relative z-10 w-full h-full flex-1 flex flex-col overflow-hidden">
+      {/* Main Slide Content Area - Scrollable on mobile */}
+      <main className="relative z-10 w-full h-full flex-1 flex flex-col overflow-y-auto pb-20 sm:pb-16">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
@@ -131,7 +131,7 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.35, ease: 'easeInOut' }}
-            className="w-full h-full flex-1"
+            className="w-full min-h-full flex-1 flex flex-col"
           >
             <CurrentSlideComponent />
           </motion.div>
