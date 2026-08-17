@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { GlassCard } from '../components/GlassCard';
 import { Header } from '../components/Header';
-import { Sparkles, Calendar, AtSign } from 'lucide-react';
+import { Lightbulb, Calendar, AtSign } from 'lucide-react';
 
 export const Slide13PeriodicContent: React.FC = () => {
   const description = "Konten periodik yang dikembangkan diberi nama TAMASYA (Tanaman dan Sayuran Punya Cerita). TAMASYA merupakan konsep konten yang mengangkat tanaman dan sayuran dengan pendekatan kreatif melalui gagasan what if atau “bagaimana jika”. Konsep tersebut digunakan untuk mengeksplorasi tanaman dan sayuran melalui sudut pandang yang tidak biasa dengan tetap mempertahankan unsur informasi dan edukasi. Konten ini akan tayang setiap akhir bulan atau sekali dalam sebulan.";
@@ -36,7 +36,7 @@ export const Slide13PeriodicContent: React.FC = () => {
             <GlassCard variant="gold" className="p-6 sm:p-8">
               <div className="flex items-center space-x-3 mb-4 pb-3 border-b border-amber-400/20">
                 <div className="p-2 rounded-xl bg-amber-400 text-slate-950">
-                  <Sparkles className="w-6 h-6" />
+                  <Lightbulb className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-xl font-extrabold text-white uppercase tracking-wide">
